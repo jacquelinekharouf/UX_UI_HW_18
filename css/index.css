@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inline-block{
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: bottom;
+    padding-inline: 80px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+header.navigation {
+    display: flex;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F8F6;
+    color: #3B937B;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px #8888881d;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    color: #3B937B;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+}
+
+h6.a {
+    color: #000000;
+    text-decoration: none;
+}
+
+h6.b {
+    color: #3B937B;
+}
+
+h6.c {
+    color: #F9F8F6;
+}
+
+.navigation {
+    display: row;
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 3%;
+    vertical-align: top;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding-inline: 30px;
+}
+
+div.hero {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul {
+    float: right;
+    padding: 12px;
+    width: 15%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 15%;
+
+}
+
+.heroimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1000px;
+}
+
+.content {
+    display: block;
+    width: 1000px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.about {
+    text-align: left;
+    color: #3B937B;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    color: #F9F8F6 ;
+    background-color:#3B937B;
+    box-shadow: 5px 10px #888888;
+}
+
+.p2 {
+    font-family: 'Bad Script'; font-size: 20px;
+}
+
+li.inline-block {
+    vertical-align: baseline;
+}
+
+footer{
+    display: flex;
+    background: linear-gradient(to right, #3B937B, #81C181, #86DFEF, #3B937B, #81C181);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+}
+
+footer.ul {
+    display: row;
+    color: #F9F8F6;
+    vertical-align: center;
+    padding-right: 50%;
+    padding-bottom: 50%;
+}
+
+footer.inline-block {
+    display: flex;
+    padding-top: 1%;
+}
