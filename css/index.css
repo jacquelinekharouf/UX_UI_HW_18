@@ -151,3 +151,78 @@ footer.inline-block {
     display: flex;
     padding-top: 1%;
 }
+
+.flexContainer {
+    display: flex;
+}
+.mySkillsTopHeader {
+    text-align: center;
+    color: #3B937B;
+    background-color: #86DFEF;
+    border-radius: 10px;
+    box-shadow: 5px 10px #8888881d;
+}
+.child1 {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
+.child2 {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
+.child3 {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
+.myWorkHeader {
+    text-align: center;
+    color: #3B937B;
+    background-color: #86DFEF;
+    border-radius: 10px;
+    box-shadow: 5px 10px #8888881d;
+}
+
+.work1 {
+    grid-area: area1;
+    border-radius: 10px;
+    box-shadow: 5px 10px #8888881d;
+}
+.work1Para {
+    grid-area: area1a;
+}
+
+.work2 {
+    grid-area: area2; 
+    border-radius: 10px;
+    box-shadow: 5px 10px #8888881d;
+}
+.work2Para {
+    grid-area: area2a;
+}
+
+.work3 {
+    grid-area: area3;
+    border-radius: 10px;
+    box-shadow: 5px 10px #8888881d;
+}
+.work3Para {
+    grid-area: area3a;
+}
+
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 
+    'area1 area1a'
+    'area2 area2a'
+    'area3 area3a';
+    grid-gap: 20px;
+    padding: 20px;
+    
+}
