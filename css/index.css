@@ -241,12 +241,10 @@ footer.inline-block {
     
 }
 
-@media only screen and (max-width: 600) {
-    body {
-        background-color: #81C181;
-    }
+@media only screen and (max-width: 600px) {
+    
     .flexContainer {
-        display: column;
+        flex-direction: column;
     }
     .child1 {
         text-align: center;
