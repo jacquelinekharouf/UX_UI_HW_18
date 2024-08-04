@@ -1,31 +1,36 @@
-header {
-    display: flex;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.inline-block{
+.inline-block-head{
     display: inline-flex;
     flex-direction: row;
     vertical-align: bottom;
-    padding-inline: 80px;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    padding-inline: 50px;
+    
+}
+.inline-block-foot{
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: bottom;
+    padding-inline: 50px;
+    color: #F9F8F6;
+}
+.logo {
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: left;
+    padding-inline: 50px;
+    padding-top: 1%;
 }
 
-header.navigation {
-    display: flex;
-}
+
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: inline-flex;
     background-color: #F9F8F6;
     color: #3B937B;
     border-radius: 10px;
     padding-bottom: 2%;
-    height: 80px;
+    margin: auto;
+    height: 90px;
     align-items: center;
     justify-content: center;
     box-shadow: 5px 10px #8888881d;
@@ -39,9 +44,7 @@ header.navigation {
     text-align: center;
 }
 
-.logo {
-    display: flex;
-}
+
 
 h6.a {
     color: #000000;
@@ -60,36 +63,11 @@ h3 {
     color: #86DFEF;
 }
 
-.navigation {
-    display: row;
-    width: 100%;
-    padding: 1%;
-    padding-bottom: 3%;
-    vertical-align: top;
-}
-
-.nav {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    padding-inline: 30px;
-}
-
-div.hero {
+.hero {
     display: flex;
     padding: 0px;
     justify-content: center;
     align-items: center;
-}
-
-.ul {
-    float: right;
-    padding: 12px;
-    width: 15%;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 15%;
-
 }
 
 .heroimg {
@@ -131,30 +109,14 @@ button {
     text-align: justify;
 }
 
-li.inline-block {
-    vertical-align: baseline;
-}
 
-footer{
+.inline-block2{
     display: flex;
     background: linear-gradient(to right, #3B937B, #81C181, #86DFEF, #3B937B, #81C181);
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     border-radius: 10px;
-    height: 100px;
-}
-
-footer.ul {
-    display: row;
-    color: #F9F8F6;
-    vertical-align: center;
-    padding-right: 50%;
-    padding-bottom: 50%;
-}
-
-footer.inline-block {
-    display: flex;
-    padding-top: 1%;
+    height: auto;
 }
 
 .flexContainer {
